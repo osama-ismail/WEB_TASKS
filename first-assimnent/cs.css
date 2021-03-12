@@ -1,0 +1,163 @@
+@font-face{
+    font-family: my_font;
+    src: url("Roboto-Black.ttf");
+}
+
+body{
+    
+    margin:0px;
+    height: 100%;
+    width: 100%;
+    
+    overflow-x: hidden
+}
+
+.head1{
+    height:64px;
+    background-color:#172035;
+    width: 100%;
+    position: fixed;
+    padding-top: 1px;
+    font-family: 'Roboto-Black';
+    
+}
+.div12{
+    /* background-color: brown; */
+    height: 100%;
+    width: 17%;
+    text-align:right ;
+    float: left;
+    margin-right: 50px;
+    
+}
+.link{ float: left; }
+
+.navbar{
+    width:60%;
+    height: 100%;
+    
+    text-align: center;
+    float: left;
+    overflow: hidden;
+    font-size: 95%;
+   
+    
+}
+.fonth{
+    color: white;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+
+}
+.div11{
+    /* background: red; */
+    height: 100%;
+    width: 15%;
+    float: left;
+    margin-left: 5px;
+    margin-top:0px;
+    padding-top:20px;
+
+}
+.div11:hover{
+    background: #09568d;
+   
+
+}
+.sec1{
+    /* background: lightblue; */
+    height: 420px;
+    width: 90%;
+    margin-top: 60px;
+    float: right;
+    font-family: my_font;
+    overflow: hidden;
+    margin-right: 100px;
+    font-size: 80%;
+}
+.firstdiv{
+    /* background: rgb(47, 0, 255); */
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 200%;
+    font-family: my_font;
+
+
+}
+
+.divoo{
+    height: 64px;
+}
+.seconddiv{
+    height: 100%;
+    width: 28%;
+    /* background: red; */
+    
+    float:right;
+    text-align: center;
+    margin-left: -30px;
+}
+.seconddiv img{
+    width: 80%;
+}
+/* .dim{
+    margin-right: 1px;
+} */
+button{
+    background-color: #172035;
+    color: white;
+
+    padding-left: 25px;
+    
+    padding-right: 25px;
+    font-size: 200%;
+}
+.foot{
+    background:#172035 ;
+    width: 100%;
+    height: 62px;
+    /* position: fixed;
+    bottom: 0px;
+     */
+
+}
+footer{
+    background: red;
+    padding: 0.7;
+    /* position: relative; */
+
+}
+/* .pl{
+    color: white;
+    width: 60%;
+} */
+footer p{
+    color: white;
+}
+.fo{
+    width: 65%;
+    text-align: right;
+    padding-top: 10px;
+    font-weight: normal;
+    font-size: 95%;
+    
+}
+.secc{
+    background: chartreuse;
+    height: 62px;
+    width: 100%;
+    overflow: hidden;
+}
+ button:hover{
+    background-color:#09568d ;
+}
+
+header img{
+    margin-top: 5px;
+}
+footer img{margin-top: 5px;
+}
